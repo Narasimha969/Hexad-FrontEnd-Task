@@ -1,0 +1,60 @@
+.toolbar {
+  height: 60px;
+  margin: -8px;
+  display: flex;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+}
+.toolbar span {
+  margin: 0 auto;
+}
+.toolbar img {
+  margin: 0 16px;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  .movieBar {
+    margin: 20px;
+    .contentHolder {
+      justify-content: space-between;
+      .movieRate {
+        padding: 0 30px;
+      }
+    }
+
+    .box {
+      width: 499px;
+      margin: 0 auto;
+    }
+    .rating {
+      margin-top: 5%;
+      border: 1px #999 solid;
+      border-left: none;
+      display: flex;
+      font-size: 0;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      background: linear-gradient(to right, #f00, #ff0, #0f0);
+      .rating-box {
+        display: flex;
+        width: 100px;
+        height: 30px;
+        font-size: 17px;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        color: #000;
+        cursor: pointer;
+        border-left: 1px #999 solid;
+        &:hover{
+          background-color: #eee;
+        }
+      }
+    }
+  }
+}
