@@ -23,6 +23,12 @@ Angular Material UI
 ===========================================================
 Angular specifications
 
+Angular CLI: 9.0.2
+Node: 12.16.0
+OS: win32 x64
+
+Angular: 9.0.1
+
 Package                           Version
 -----------------------------------------------------------
 @angular-devkit/architect         0.900.2
