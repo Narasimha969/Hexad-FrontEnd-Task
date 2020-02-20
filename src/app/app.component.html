@@ -3,6 +3,7 @@
 </div>
 
 <div class="container">
+   <button id="randomBtn" mat-raised-button color="primary" (click)="toggleRandom()">{{btnText}}</button>
   <mat-accordion>
     <mat-expansion-panel class="movieBar" *ngFor="let movie of moviesData | async; let movieIndex= index">
       <mat-expansion-panel-header>

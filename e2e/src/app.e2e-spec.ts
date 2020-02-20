@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Hexad-FrontEnd-Task app is running!');
+    expect(page.getTitleText()).toEqual('Welcome to Hexad Front End Task Solution');
   });
 
   afterEach(async () => {
